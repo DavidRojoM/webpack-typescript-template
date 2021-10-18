@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve",
-    "build": "webpack",
-    "build:watch": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --open",
+    "build:watch": "webpack --watch & webpack serve --open",
+    "start": "webpack serve --mode development --open"
   },
   "author": "David Rojo",
   "license": "ISC",

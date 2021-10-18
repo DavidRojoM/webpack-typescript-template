@@ -1,3 +1,4 @@
 ### WebPack with TypeScript template
 
-- [ ] Config webpack dev server 
+- [x] Config webpack dev server
+- [ ] Make it live refresh

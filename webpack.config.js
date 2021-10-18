@@ -11,9 +11,14 @@ module.exports = {
       },
     ],
   },
+  target: "web",
   output: {
-    publicPath: "dist",
+    publicPath: "public",
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
+  },
+  devServer: {
+    // hack para permitir ver la APP desde otros dispositivos
+    host: "0.0.0.0",
   },
 };
