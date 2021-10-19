@@ -1,2 +1,3 @@
-console.log("Hello world");
-console.log("Prueba");
+import { prueba } from "./prueba";
+
+prueba();
